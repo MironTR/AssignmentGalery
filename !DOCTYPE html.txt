@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Large Cats Gallery</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; background: #f9f9f9; }
+    h1 { margin-top: 20px; }
+    .gallery { display: flex; justify-content: center; gap: 15px; margin-top: 20px; }
+    .gallery img { height: 250px; width: auto; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Large Cats</h1>
+  <div class="gallery">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="Lion">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Amur_Tiger_Panthera_tigris_altaica_Cub_Paws_2000px.jpg" alt="Tiger">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/African_Leopard_Panthera_pardus_pardus.jpg" alt="Leopard">
+  </div>
+</body>
+</html>
